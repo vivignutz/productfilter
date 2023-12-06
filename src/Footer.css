@@ -1,8 +1,17 @@
-footer {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #514f4d;
-    color: #fff;
-    padding: 20px;
+.mainFooter {
+    background-color: rgb(144, 144, 144);
+    color: #157347;
+    padding: 10px;
     text-align: center;
     width: max-content;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(144, 144, 144);
+    color: #157347;
+}
+
+i {
+    color: #157347;
 }

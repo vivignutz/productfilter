@@ -22,7 +22,7 @@ export default function Productfilter() {
             <button type="button" className="btn btn-success me-3" onClick={() => setItems(Product)}>All Products</button>
             <button type="button" className="btn btn-success me-3" onClick={() => filterItems("women's clothing")}>Women's Clothing</button>
             <button type="button" className="btn btn-success me-3" onClick={() => filterItems("men's clothing")}>Men's Clothing</button>
-            <button type="button" className="btn btn-success me-3" onClick={() => filterItems("jewelery")}>Jewelery</button>
+            <button type="button" className="btn btn-success me-3" onClick={() => filterItems("jewelry")}>Jewelry</button>
             <button type="button" className="btn btn-success me-3" onClick={() => filterItems("electronics")}>Electronics</button>
 
             <hr />
@@ -35,8 +35,7 @@ export default function Productfilter() {
                                 <div className="card-body">
 
                                 {/* Product title has max. 18 characters */}
-                                <h5>{val.title.substring(0,18)} <span className="badge bg-primary">{val.category}</span></h5>
-                                
+                                    <h5>{val.title.substring(0,18)} <span className="badge bg-primary">{val.category}</span></h5>
                                 </div>
                         </div>                                            
                     </div>
