@@ -2,9 +2,9 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import './App.css'
 import Header from './Header'
-/* import Home from './Home' */
-/* import Login from './Login'
-import Signup from './Signup' */
+// import Home from './Home'
+// import Login from './Login'
+// import Signup from './Signup'
 import Productfilter from './FilterData/Productfilter'
 import Form from './Form'
 import Footer from './Footer'

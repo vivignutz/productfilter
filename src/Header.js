@@ -15,20 +15,21 @@ const Header = () => {
           </div> */}
         <ul className="list">
             <li>
-            <Link to="/productfilter" className="item">
+            <Link to="/productfilter" className="item" style={{ color: '#fffff' }}>
                 Home
             </Link>
             </li>
             <li>
-            <Link to="/productfilter" className="item">
+            <Link to="/productfilter" className="item" style={{ color: '#ffffff' }}>
                 Products
             </Link>
             </li>
             <li>
-            <Link to="/form" className="item">
+            <Link to="/form" className="item" style={{ color: '#ffffff' }}>
                 Contact
             </Link>
             </li>
+            
             {/* <li>
             <Link to="/login">Login</Link>
             </li>

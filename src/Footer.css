@@ -1,17 +1,37 @@
+footer {
+    display: block;
+    background-color: rgb(144, 144, 144);
+}
+
 .mainFooter {
     background-color: rgb(144, 144, 144);
     color: #157347;
     padding: 10px;
     text-align: center;
-    width: max-content;
 }
 
-#footer {
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(144, 144, 144);
+.social-network {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-network li {
+    margin: 0 10px;
     color: #157347;
+    text-align: center;
+    display: inline;
 }
 
 i {
     color: #157347;
+    font-size: 24px;
+}
+
+.footerText {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(144, 144, 144);
+    color: #157347;
+    margin-top: 10px;
 }

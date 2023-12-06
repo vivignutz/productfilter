@@ -3,6 +3,14 @@ form {
     width: auto;
 }
 
+.form {
+    display: inherit;
+    font-family: Montserrat, sans-serif;
+    color: #662C10;
+    font-weight: bold;
+    width: 80%;
+}
+
 input[type="text"], input[type="email"], textarea {
     color: #000;
     width: 100%;
@@ -18,5 +26,13 @@ input[type="text"], input[type="email"], textarea {
 
 hr {
     color: #0d0f0e;
+}
+
+.contact {
+    height: auto;
+    margin-bottom: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
 }
 

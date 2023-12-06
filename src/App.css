@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,4 +15,20 @@
 
 .App-link {
   color: #100f0d;
+}
+ */
+
+/* Media queries */
+/* For screens larger then 600px: makes 2 colums */
+@media (max-width: 600px) {
+  .category-grid {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For screens larger then 000px: makes 3 colums */
+@media (min-width: 900px) {
+  .category-grid {
+  grid-template-columns: repeat(3, 1fr);
+  }
 }
