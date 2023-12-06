@@ -1,9 +1,9 @@
 import React from 'react';
-import { Routes } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 
 const Home = () => {
     // To redirect to Productfilter only for this exercise
-    return <Routes to='./Productfilter' />;
+    return <Navigate to='/productfilter' />;
 };
 
 export default Home;
